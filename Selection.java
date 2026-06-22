@@ -107,7 +107,6 @@ public class Selection {
 
         //switch as expression
         int value = 5;
-
         int result = switch (value) {
             case 1 ->
             1;
