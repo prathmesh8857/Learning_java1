@@ -25,7 +25,33 @@ public class array {
         //     System.out.println(num);
         // }
 
-        
+        // //datatype arrayname = new datatype [size]
+        // //new keyword used for allocate new mamory
+        // int []arr = {1,2,3,4,5};
+        // System.out.println(arr.length);
+
+        int[][] jagged = new int[3][4]; 
+
+        jagged[0][0] = 1;
+        jagged[0][1] = 2;
+        jagged[0][2] = 3;
+
+        jagged[1][0] = 4;
+        jagged[1][1] = 5;
+
+        jagged[2][0] = 6;
+        jagged[2][1] = 7;
+        jagged[2][2] = 8;
+        jagged[2][3] = 9;
+
+        for (int i = 0; i < jagged.length; i++){
+            for(int j = 0; j < jagged[i].length; j++){
+                System.out.print(jagged[i][j] +" ");
+            }
+            System.out.println();
+        }
+
+
 
 
     }
